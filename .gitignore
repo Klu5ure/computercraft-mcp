@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets and runtime state (tokens, relay data, in-game saves)
+tokens.json
+.computercraft-mcp/
+.bridge.json
+.bridge-debug*
+.bridge-errors.log
+*.env
+.env*
+
+# Local MCP config (examples/mcp.json.example is committed instead)
+.mcp.json
+
+# Selftest scratch (headless CraftOS-PC data)
+selftest-tmp/
+*.log
+
+# Claude Code, editors, OS
+.claude/
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
